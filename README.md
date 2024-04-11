@@ -59,7 +59,7 @@ These must be installed in the path. You can check this by running `magick` and 
 There are two versions of the script:
 
 * `nadir-patcher.py`: this calculates the resolution of the first image once, and thus the nadir once. It then overlays the nadir on all images supplied. Use when images are all the same resolution.
-* `nadir-patcher.py`: this calculates the resolution of every image, and thus the nadir everytime. This is useful when directory has photo files with multiple resolutions.
+* `nadir-patcher-slow.py`: this calculates the resolution of every image, and thus the nadir everytime. This is useful when directory has photo files with multiple resolutions.
 
 ```shell
 # clone the latest code
